@@ -1,0 +1,437 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+
+
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
+
+.logo span {
+    color: #2e2f42;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.link-studio {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding: 24px 0;
+    /* metor helxp x) */
+    display: block;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 56px;
+
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button:hover {
+    background-color: #404BBF;
+}
+
+.team-section-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.team-section {
+    background-color: #f4f4FD;
+}
+
+.team-section-h-second {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* Перша буква буле великою capitalize*/
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-section-line {
+    width: calc((100% - 72px) / 4);
+}
+
+.team-section-line-one-h-thre {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* header settings */
+
+
+header a:hover,
+header a:focus {
+    color: #404BBF;
+}
+
+header a {
+    color: #434455;
+}
+
+.menu-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    max-height: 72px;
+}
+
+.menu-header {
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+/* .main-nav .logo {
+    padding: 24px 0;
+} */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+
+.adress-info {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.adress-info ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+/*  top baner */
+.top-banner {
+    background-color: #2E2F42;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 188px 0;
+
+
+}
+
+
+.top-banner-h-one {
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+}
+
+.top-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* button in top banner */
+.button-order {
+    background-color: #4D5AE5;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+}
+
+.button-order:focus {
+    background-color: #404bbf;
+}
+
+/* container four Strategy, Punctuality... */
+
+.strategy {
+    padding: 120px 0;
+}
+
+.strategy .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.strategy-list {
+    display: flex;
+    gap: 24px;
+    /* padding: 120px 0; */
+}
+
+/* це треш просто  */
+.strategy-line {
+    width: calc((100% - 72px) / 4);
+
+}
+
+.strategy-h-three {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.strategy .strategy-h-three {
+    margin-bottom: 8px;
+}
+
+
+/* Our team container */
+.team-section {
+    padding: 120px 0;
+}
+
+.team-section .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.team-section-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    /* margin-bottom: 120px; */
+    /* width: calc((100% - 72px) / 4); */
+}
+
+.team-section-list li {
+
+    border-radius: 0 0 4px 4px;
+}
+
+.team-section .team-section-h-second {
+    /* margin-bottom: 72px; */
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-container-text {
+    padding: 32px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.team-container-text h3 {
+    margin-bottom: 8px;
+}
+
+/*text "Our Tema"  */
+/* .team-section-h-second { */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+
+/* for section Portfoliol */
+.porportfolio .container {
+    display: flex;
+}
+
+.portfolio-line {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+
+.portfolio-list li {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #E7E9FC;
+
+    width: calc((100% - 48px) / 3);
+}
+
+
+.portfolio {
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+
+}
+
+.portfolio .team-section-h-second {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 72px;
+    text-shadow: 2px 2px 4px #2e2f42;
+    color: #2e2f42;
+}
+
+.portfolio-text-container {
+    padding: 32px 16px;
+    border: solid 1px #e7e9fc;
+    border-top: none;
+
+
+}
+
+.portfolio-text-container h3 {
+    margin-bottom: 8px;
+}
+
+/* footer */
+.footer-style {
+    background-color: #2E2F42;
+    color: white;
+    padding: 100px 0;
+    justify-content: flex-start;
+}
+
+.footer-style .container {
+
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.logo-footer {
+    display: inline-block;
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    /* uppercase - текст усі букви великі */
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-bottom: 16px;
+
+}
+
+
+
+.logo-footer span {
+    color: #f4f4FD;
+
+}
+
+.footer-p {
+    line-height: 1.5;
+    color: #f4f4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
