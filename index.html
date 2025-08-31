@@ -19,22 +19,24 @@
   <body>
     <header class="menu-header">
       <div class="container">
-        <nav class="main-nav">
+        <nav class="header-nav">
           <a href="./index.html" class="logo">Web<span>Studio</span> </a>
           <ul class="nav-list">
-            <li><a href="./index.html" class="link-studio">Studio</a></li>
-            <li><a href="" class="link-studio">Portfolio</a></li>
-            <li><a href="" class="link-studio">Contacts</a></li>
+            <li class="nav-items">
+              <a href="./index.html" class="nav-link">Studio</a>
+            </li>
+            <li class="nav-items"><a href="" class="nav-link">Portfolio</a></li>
+            <li class="nav-items"><a href="" class="nav-link">Contacts</a></li>
           </ul>
         </nav>
-        <address class="adress-info">
-          <ul class="address-items">
-            <li>
+        <address class="contacts">
+          <ul class="contacts-list">
+            <li class="contacts-items">
               <a href="mailto:info@devstudio.com" class="nav-info"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="contacts-items">
               <a href="tel:+110001111111" class="nav-info"
                 >+11 (000) 111-11-11</a
               >
@@ -59,6 +61,11 @@
           <h2 class="visually-hidden">Road to best</h2>
           <ul class="strategy-list">
             <li class="strategy-line">
+              <div class="strategy-icon-container">
+                <svg class="strategy-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="strategy-h-three">Strategy</h3>
               <p class="team-section-p">
                 Our goal is to identify the business problem to walk away with
@@ -66,6 +73,11 @@
               </p>
             </li>
             <li class="strategy-line">
+              <div class="strategy-icon-container">
+                <svg class="strategy-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="strategy-h-three">Punctuality</h3>
               <p class="team-section-p">
                 Bring the key message to the brand's audience for the best price
@@ -73,6 +85,11 @@
               </p>
             </li>
             <li class="strategy-line">
+              <div class="strategy-icon-container">
+                <svg class="strategy-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="strategy-h-three">Diligence</h3>
               <p class="team-section-p">
                 Research and confirm brands with the strongest digital growth
@@ -80,6 +97,11 @@
               </p>
             </li>
             <li class="strategy-line">
+              <div class="strategy-icon-container">
+                <svg class="strategy-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="strategy-h-three">Technologies</h3>
               <p class="team-section-p">
                 Design practice focused on digital experiences. We bring forth a
@@ -101,9 +123,40 @@
                 width="264"
                 height="260"
               />
+
               <div class="team-container-text">
                 <h3 class="strategy-h-three">Mark Guerrero</h3>
                 <p class="team-section-p">Product Designer</p>
+                <ul class="social-list-link">
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-section-line">
@@ -116,6 +169,36 @@
               <div class="team-container-text">
                 <h3 class="strategy-h-three">Tom Ford</h3>
                 <p class="team-section-p">Frontend Developer</p>
+                <ul class="social-list-link">
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-section-line">
@@ -128,6 +211,36 @@
               <div class="team-container-text">
                 <h3 class="strategy-h-three">Camila Garcia</h3>
                 <p class="team-section-p">Marketing</p>
+                <ul class="social-list-link">
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-section-line">
@@ -140,6 +253,36 @@
               <div class="team-container-text">
                 <h3 class="strategy-h-three">Daniel Wilson</h3>
                 <p class="team-section-p">UI Designer</p>
+                <ul class="social-list-link">
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-line">
+                    <a href="#" class="social-link">
+                      <svg class="icon-team">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
@@ -163,12 +306,19 @@
               </div>
             </li>
             <li class="portfolio-line">
-              <img
-                src="./images/chas-min.jpg"
-                alt="Cashless Payment"
-                width="360"
-                height="300"
-              />
+              <div class="image-container-portfolio">
+                <img
+                  src="./images/chas-min.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                  height="300"
+                />
+                <div class="overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </div>
+              </div>
               <div class="portfolio-text-container">
                 <h3 class="team-section-line-one-h-thre">Cashless Payment</h3>
                 <p class="team-section-p">Marketing</p>
@@ -237,6 +387,39 @@
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
         </p>
+      </div>
+      <div class="footer-social">
+        <h3 class="">Social media</h3>
+        <ul class="social-list-link">
+          <li class="social-line">
+            <a href="#" class="social-link">
+              <svg class="icon-team">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-line">
+            <a href="#" class="social-link">
+              <svg class="icon-team">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-line">
+            <a href="#" class="social-link">
+              <svg class="icon-team">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-line">
+            <a href="#" class="social-link">
+              <svg class="icon-team">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
