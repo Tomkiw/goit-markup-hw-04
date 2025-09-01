@@ -223,8 +223,6 @@ header a {
 
 /*  top baner */
 .top-banner {
-    /* background-color: #2E2F42; */
-
     color: white;
     text-align: center;
     display: flex;
@@ -451,6 +449,10 @@ _______________________________________________
 .portfolio-line:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -524,7 +526,7 @@ _______________________________________________
     color: #2e2f42;
 }
 
-.portfolio-text-container {
+.portfolio-container {
     /* padding: 32px 16px;
     border: solid 1px #e7e9fc;
     border-top: none; */
@@ -533,12 +535,12 @@ _______________________________________________
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    width: 360px;
+    /* width: 360px; */
     height: 120px;
 
 }
 
-.portfolio-text-container h3 {
+.portfolio-container h3 {
     margin-bottom: 8px;
 }
 
