@@ -42,7 +42,33 @@ ol {
     /* metor helxp x) */
     display: block;
     position: relative;
+}
 
+/* Перший пункт контактів */
+.contacts-list .contacts-items:first-child .nav-info {
+    color: #434455;
+    /* базовий колір */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Перший пункт меню */
+.nav-list .nav-items:first-child .nav-link {
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Ховер/фокус */
+.nav-link:hover,
+.nav-link:focus,
+.nav-info:hover,
+.nav-info:focus {
+    color: #4d5ae5;
+    /* наприклад синій при наведенні */
+}
+
+.nav-link.active {
+    color: #404bbf;
+    /* синій колір тексту */
 }
 
 .nav-items {
@@ -53,6 +79,8 @@ ol {
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 a {
     text-decoration: none;
@@ -638,6 +666,7 @@ _______________________________________________
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .social-list-link .social-line {}
