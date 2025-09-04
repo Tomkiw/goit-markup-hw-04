@@ -29,8 +29,14 @@ body {
 ul,
 ol {
     list-style-type: none;
-    padding-left: 0;
+    padding: 0;
     margin: 0;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .nav-link {
@@ -127,11 +133,6 @@ button:hover {
 
 
 
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 
 /* ______header settings______ */
 
@@ -682,7 +683,7 @@ _______________________________________________
 
 .footer-social .social-list-link {
     gap: 16px;
-    padding: 16px 0 0 0;
+    padding: 0;
 }
 
 .footer-social .social-link {
@@ -696,6 +697,9 @@ _______________________________________________
 
 
 }
+
+
+
 
 /* .social-link:hover,
 .social-link:focus {
