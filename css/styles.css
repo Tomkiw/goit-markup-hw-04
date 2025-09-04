@@ -44,10 +44,10 @@ ol {
     position: relative;
 }
 
-/* Перший пункт контактів */
-.contacts-list .contacts-items.nav-info {
+/*пункт контактів */
+.contacts-list .contacts-items:nth-child(1) .nav-info,
+.contacts-list .contacts-items:nth-child(2) .nav-info {
     color: #434455;
-    /* базовий колір */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
