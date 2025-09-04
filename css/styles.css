@@ -8,6 +8,7 @@ body {
 
 .section {
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -74,7 +75,7 @@ ol {
 
 .nav-link.active {
     color: #404bbf;
-    /* синій колір тексту */
+
 }
 
 .nav-items {
@@ -247,15 +248,14 @@ header a {
     margin-bottom: 48px;
 }
 
-.top-banner .container {
+/* .top-banner .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 2;
-
-}
+} */
 
 /* button in top banner */
 .button-order {
@@ -282,21 +282,18 @@ header a {
 
 .strategy {
     padding: 120px 0;
-
 }
 
-.strategy .container {
+/* .strategy .container {
     display: flex;
     flex-direction: column;
 
-}
+} */
 
 .strategy-list {
     display: flex;
     gap: 24px;
     /* padding: 120px 0; */
-
-
 }
 
 .strategy-line {
@@ -337,11 +334,11 @@ header a {
     padding: 120px 0;
 }
 
-.team-section .container {
+/* .team-section .container {
     display: flex;
     flex-direction: column;
 
-}
+} */
 
 .team-section-list {
     display: flex;
@@ -476,10 +473,8 @@ header a {
     height: 20px;
 }
 
-_______________________________________________
+/*text: Road to best  */
 
-/*text "Our Tema"  */
-/* .team-section-h-second { */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -494,9 +489,7 @@ _______________________________________________
 }
 
 /* for section Portfoliol */
-.porportfolio .container {
-    display: flex;
-}
+
 
 .portfolio-line {
     width: calc((100% - 48px) / 3);
@@ -694,10 +687,7 @@ _______________________________________________
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-
-
 }
-
 
 
 
